@@ -2,10 +2,10 @@
 @section('redes')
 <div class="red">
     <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
+        <a href="https://www.facebook.com/Granosdelinkaperu" target="none" class="fab fa-facebook-f "></a>
     </div>
     <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
+        <a href="https://www.instagram.com/granosdelinka/" target="none" class="fab fa-instagram"></a>
     </div>
     <div id="twiter">
         <a href="" target="none" class="fab fa-twitter-square"></a>
@@ -13,9 +13,9 @@
     <div id="whatsaap">
         <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
     </div>
-    <div id="linkeding">
+    <!--<div id="linkeding">
         <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
-    </div>
+    </div>-->
 </div>
 @endsection
 @section('navbar_top')
@@ -24,11 +24,11 @@
         <div class="d-inline-flex ml-auto">
             <div class="headcont">
                 <i class="fas fa-2x fa-mobile-alt messenge"></i>
-                +51 999-999-999
+                +51 916-387-366
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+                granosdelinka@gmail.com
             </div>
         </div>
     </div>
@@ -37,7 +37,7 @@
 @section('navbar')
     <header>
     <a href="#" class="logo">
-        <h2 style="color: white" class="imgtamaño">JLDM</h2>
+        <h2 style="color: white" class="imgtamaño">GRANOS DEL INKA</h2>
         <!--<img  class="imgtamaño" src="{{ asset('img/Logo_jldm.png')}}" alt="JLDM ! Proyects">-->
     </a>
     <div class="menu-toggle" ></div>
@@ -47,6 +47,7 @@
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a class="active" href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a href="{{ url('/login')}}">ADMIN</a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
@@ -79,8 +80,7 @@
         <div class="nosotros_content">
             <div>
                 <h3>¿Quienes somos?</h3>
-                <p>Hola Soy JLDIAZ diseñador web esta pagina web esta totalmente gratis para que puedan implementar a algun proyecto universitario la unica de
-                    condicon de uso es que mejoren algo a esta pagina web para que asi fortalezcan sus conocimientos.
+                <p>Somos una empresa apasionada dedicada a la elaboración, venta y distribución de productos naturales basados en los valiosos granos andinos, como quinua, maca, soya, habas, entre otros. Nuestra historia se nutre de un compromiso profundo con la calidad, respaldado por asociaciones con agricultores locales comprometidos con prácticas sostenibles.
                 </p>
             </div>
         </div>
@@ -93,8 +93,7 @@
         <div class="nosotros_content">
             <div>
                 <h3>Nuestra Misión</h3>
-                <p>Establecer una relación con nuestros clientes distribuyendo nuestros productos con eficiencia,rapidez, buenos precios y buscando la mejora continua para contribuir con su desarrollo y el de nuestros colaboradores.
-                </p>
+                <p>Rescatar y destacar la riqueza nutricional de estos tesoros de los Andes, comprometiéndonos a ofrecer productos de la más alta calidad, cultivados de manera sostenible y elaborados con integridad. Buscamos inspirar y facilitar la adopción de un estilo de vida saludable al proporcionar opciones deliciosas y nutritivas que contribuyan al bienestar de nuestros clientes.
             </div>
         </div>
     </div>
@@ -106,8 +105,7 @@
         <div class="nosotros_content">
             <div>
                 <h3>Nuestra Visión</h3>
-                <p>Consolidarnos como una de las empresas líderes en distribución de artículos no estratégicos a nivel nacional,
-                    reconocida por su compromiso y responsabilidad.
+                <p>Aspiramos a ser líderes reconocidos a nivel mundial en la promoción de una alimentación consciente y saludable, a través de la innovación continua y el respeto por las tradiciones andinas. Visualizamos un futuro en el que nuestros productos sean la elección predilecta de aquellos que buscan no solo sabores auténticos, sino también un estilo de vida equilibrado y nutritivo.
                 </p>
             </div>
         </div>
@@ -120,7 +118,7 @@
         <div class="nosotros_content">
             <div>
                 <h3>¿Porque escogernos?</h3>
-                <p>Contamos con una amplia experiencia en ventas de productos y a los mejores precios de fábrica para la satisfacción del cliente. 
+                <p>Ofrecemos más que productos, brindamos una experiencia de bienestar única. Al elegirnos, te beneficias de nuestra dedicación a la calidad, respaldada por la experiencia en la elaboración de productos a base de granos andinos. Nos destacamos por priorizar la sostenibilidad y establecER colaboraciones directas con agricultores locales comprometidos con prácticas agrícolas responsables.
                 </p>
             </div>
         </div>

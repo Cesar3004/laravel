@@ -2,10 +2,10 @@
 @section('redes')
 <div class="red">
     <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
+        <a href="https://www.facebook.com/Granosdelinkaperu" target="none" class="fab fa-facebook-f "></a>
     </div>
     <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
+        <a href="https://www.instagram.com/granosdelinka/" target="none" class="fab fa-instagram"></a>
     </div>
     <div id="twiter">
         <a href="" target="none" class="fab fa-twitter-square"></a>
@@ -13,9 +13,9 @@
     <div id="whatsaap">
         <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
     </div>
-    <div id="linkeding">
+    <!--<div id="linkeding">
         <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
-    </div>
+    </div>-->
 </div>
 @endsection
 @section('navbar_top')
@@ -37,7 +37,7 @@
 @section('navbar')
     <header>
     <a href="#" class="logo">
-        <h2 style="color: white" class="imgtamaño">JLDM</h2>
+        <h2 style="color: white" class="imgtamaño">GRANOS DEL INKA</h2>
         <!--<img  class="imgtamaño" src="{{ asset('img/jldm.png')}}" alt="JLDM ! Proyects">-->
     </a>
     <div class="menu-toggle" ></div>
@@ -47,6 +47,7 @@
                 <li><a class="active" href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a href="{{ url('/login')}}">ADMIN</a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
@@ -128,15 +129,18 @@
             <div class="contactos_info">
                 <div class="contact_information">
                     <i class="fas fa-2x fa-map-marker-alt"></i>
-                    <p>AV.MUY MUY LEJANO </p>
+                    <p>AV.Jose Carlos Mariategui, 
+                        Mz Z_1 Lt 24
+                        Villa el Salvador
+                     </p>
                 </div>
                 <div class="contact_information">
                 <i class="fas fa-2x fa-phone-volume"></i>
-                    <p>999999999</p>
+                    <p>916387366</p>
                 </div>
                 <div class="contact_information">
                     <i class="far fa-2x fa-envelope"></i>
-                    <p>jldm605@gmail.com</p>
+                    <p>granosdelinka@gmail.com</p>
                 </div>
             </div>
             <div class="social_media">

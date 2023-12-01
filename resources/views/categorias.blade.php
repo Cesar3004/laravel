@@ -2,10 +2,10 @@
 @section('redes')
 <div class="red">
     <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
+        <a href="https://www.facebook.com/Granosdelinkaperu" target="none" class="fab fa-facebook-f "></a>
     </div>
     <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
+        <a href="https://www.instagram.com/granosdelinka/" target="none" class="fab fa-instagram"></a>
     </div>
     <div id="twiter">
         <a href="" target="none" class="fab fa-twitter-square"></a>
@@ -13,9 +13,9 @@
     <div id="whatsaap">
         <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
     </div>
-    <div id="linkeding">
+    <!--<div id="linkeding">
         <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
-    </div>
+    </div>-->
 </div>
 @endsection
 @section('navbar_top')
@@ -28,7 +28,7 @@
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+                Hipolito
             </div>
         </div>
     </div>
@@ -47,6 +47,7 @@
                 <li><a href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a class="active" href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+                <li><a href="{{ url('/login')}}">ADMIN</a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
@@ -76,7 +77,7 @@
         @foreach($categorias as $categoria)
       <li class="cards_item">
         <div class="card">
-          <div class="card_image"><img  src="{{ asset('img/jldm_slider.jpg')}}" height="100"></div>
+          <div class="card_image"><img  src="{{ asset('img/cereales.jpg')}}" height="100"></div>
           <div class="card_content">
             <h1 class="card_title">{{$categoria->name}}</h1>
             <hr>

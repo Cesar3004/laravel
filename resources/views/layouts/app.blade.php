@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>JLDM |Panel administrativo</title>
+    <title>GDI |Panel administrativo</title>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
@@ -86,9 +86,9 @@
             <aside class="main-sidebar bg-light elevation-4">
                 <!-- Brand Logo -->
                 <a href="{{ url('/') }}" class="brand-link">
-                    <img src="https://i.ibb.co/Z2shSJj/animado-Recuperado.png" alt="JLDIAZ logo" class="brand-image img-circle"
+                    <img src="{{asset('img/logo.jpg')}}" alt="JLDIAZ logo" class="brand-image img-circle"
                         style="opacity: .8">
-                    <span class="brand-text font-weight-light">JLDM</span>
+                    <span class="brand-text font-weight-light">Granos del Inka</span>
                 </a>
 
                 <!-- Sidebar -->
@@ -173,7 +173,7 @@
                                     class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-star"></i>
                                     <p>
-                                        Oferata del dia
+                                        Promociones del dia
                                     </p>
                                 </a>
                             </li>
@@ -182,7 +182,7 @@
                                     class="{{ Request::path() === 'Categorias' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-shopping-bag"></i>
                                     <p>
-                                       Categorias de Producto
+                                       Categorias de los Productos
                                     </p>
                                 </a>
                             </li>

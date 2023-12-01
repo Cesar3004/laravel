@@ -81,7 +81,7 @@
             <div class="contactos_info">
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
-                    <p>jldm605@gmail.com</p>
+                    <p>granosdelinka@gmail.com</p>
                 </div>
                 <div class="contact_information">
                     <i class="fas fa-2x fa-user"></i>
@@ -96,7 +96,7 @@
                 <p>Atte:</p>
                 <div class="social-icons">
                         <img src="{{asset('img/favicon_higienika_office_peru.png')}}" alt="">
-                        <p>Higienika Oficce Perú</p>
+                        <p>Granos del Inka Peru</p>
                 </div>
             </div>
         </div>

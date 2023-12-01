@@ -2,10 +2,10 @@
 @section('redes')
 <div class="red">
     <div id="facebook">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-facebook-f "></a>
+        <a href="https://www.facebook.com/Granosdelinkaperu" target="none" class="fab fa-facebook-f "></a>
     </div>
     <div id="instagram">
-        <a href="https://www.youtube.com/channel/UCuRgEjJgi9iZFCYVSASpXDw" target="none" class="fab fa-instagram"></a>
+        <a href="https://www.instagram.com/granosdelinka/" target="none" class="fab fa-instagram"></a>
     </div>
     <div id="twiter">
         <a href="" target="none" class="fab fa-twitter-square"></a>
@@ -13,9 +13,10 @@
     <div id="whatsaap">
         <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-whatsapp"></a>
     </div>
-    <div id="linkeding">
+    <!--<div id="linkeding">
         <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="none" class="fab fa-linkedin"></a>
-    </div>
+        EDITADO MIERCOLES
+    </div>-->
 </div>
 @endsection
 @section('navbar_top')
@@ -28,7 +29,7 @@
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                jldm605@gmail.com
+               HIPOLITO
             </div>
         </div>
     </div>
@@ -37,7 +38,7 @@
 @section('navbar')
     <header>
     <a href="#" class="logo">
-        <h2 style="color: white" class="imgtamaño">JLDM</h2>
+        <h2 style="color: white" class="imgtamaño">GRANOS DEL INKA</h2>
         <!--<img  class="imgtamaño" src="{{ asset('img/jldm.png')}}" alt="JLDM ! Proyects">-->
     </a>
     <div class="menu-toggle" ></div>
@@ -47,6 +48,7 @@
                 <li><a href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
                 <li><a href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+               <!--IMPORTANTE--><li><a href="{{ url('/login')}}">ADMIN</a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
@@ -61,7 +63,7 @@
                         <h4>PAGINA <span>WEB</span></h4>
 						<br>
 						<br>
-                        <h1 class="tipeo1">JLDIAZ</h1>
+                        <h1 class="tipeo1">GRANOS DEL INKA</h1>
                         <h1 class="tipeo2"><span class="type"></span></h1>
                         <div class="botonesinfo">
                         <a href="" class="btn hero-btn">MAS INFORMACIÓN</a>
@@ -119,6 +121,7 @@
     </div>
 </div>
 @endsection
+<!--CATEGORIAS-->
 @section('cards')
 <div class="container_cards">    
     <div class="row_cards">
@@ -126,9 +129,9 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat1.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Productos de Celulares</h3>
+                    <h3>Alimentos Fortificados</h3>
                     <hr class="style2">
-                    <h5>Para el hogar y oficina</h5>
+                    <h5>Productos a base de diversos granos andinos</h5>
                 </div>
             </div>
         </div>
@@ -136,9 +139,9 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat2.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Artículos de Oficina</h3>
+                    <h3>Quinua</h3>
                     <hr class="style2">
-                    <h5>Artículos de oficina de las mejores marcas</h5>
+                    <h5>Quinua blanca,Quinua roja,Quinua negra,Mezclas de quinua.</h5>
                 </div>
             </div>
         </div>
@@ -146,9 +149,9 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat3.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Repuestos De Moviles</h3>
+                    <h3>Soya</h3>
                     <hr class="style2">
-                    <h5>Distribuimos Partes y repuestos</h5>
+                    <h5>Proteína de soya en polvo,Productos a base de soya (leche, yogur, etc.),Snacks de soya.</h5>
                 </div>
             </div>
         </div>
@@ -156,9 +159,9 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat4.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Artículos de Laptops</h3>
+                    <h3>Habas</h3>
                     <hr class="style2">
-                    <h5>Artículos Laptops de trabajo</h5>
+                    <h5>Habas secas,Harina de habas,Snacks de habas</h5>
                 </div>
             </div>
         </div>
@@ -166,7 +169,7 @@
 </div>
 @endsection
 @section('title5')
-<div class="col-12 pt-2" style="background: #0781b6">
+<div class="col-12 pt-2" style="background: #FF8525">
 		<div class="proveedor-title">
 			<h5 style="color: black">CONOCE A</h5>
             <h3 style="color: white">NUESTROS PROVEEDORES</h3>
@@ -216,7 +219,7 @@
             <div class="left">
               <div class="details">
                 <h2 class="txt_products">{{$producto->name}}</h2>
-                <p>S/{{$producto->price}}</p>
+                <p>PEN {{$producto->price}}</p>
               </div>
               <div class="buy text-center">
                 <a href="{{route('product-details', $producto->slug)}}">
@@ -253,7 +256,7 @@
                 <ul class="box">
                     <li class="button_social">
                         <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com/Granosdelinkaperu" target="_blank">Facebook</a>
                     </li>
                     <li class="button_social">
                         <i class="fab mr-2 fa-twitter"></i>
